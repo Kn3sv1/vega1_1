@@ -1,0 +1,1 @@
+PS C:\Users\r_satanovskyi\projects\vega1_1> dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 1.1.1
