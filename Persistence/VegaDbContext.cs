@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using vega.Models;
 
-namespace vega1_1.Persistance
+namespace vega.Persistence
 {
     public class VegaDbContext : DbContext
     {
@@ -12,5 +12,7 @@ namespace vega1_1.Persistance
         }
 
         public DbSet<Make> Makes { get; set; }
+
+        public DbSet<Feature> Features { get; set; }
     }
 }
